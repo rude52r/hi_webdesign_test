@@ -1,0 +1,111 @@
+@charset "utp-8";
+/* reset */
+*{margin: 0; padding: 0; box-sizing: border-box;}
+a{text-decoration: none; color: inherit;}
+ul,li,ol{list-style-type: none;}
+
+
+
+body{
+    background-color: white;
+    color: #333;
+    font-family: "돋음";
+    font-size: 14px;
+}
+
+#wrap{}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+}
+.header_inner{
+    width: 1200px;
+    height: 100px;
+    background-color: burlywood;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+.logo a{
+    display: block;
+    padding-top: 30px;
+}
+
+.nav{
+    float: right;
+    margin-top: 25px;
+}
+.main{}
+.main > li{
+    float: left;
+    position: relative;
+}
+.main > li > a{
+    display: block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: cadetblue;
+    color: white;
+
+}
+
+.main > li:hover > a{
+    background-color: tomato;
+}
+
+.sub{
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 150px;
+    height: 160px;
+    background-color: tomato;
+    display: none;
+
+}
+.sub li{}
+.sub li a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+
+.sub li a:hover{
+    background-color: cadetblue;
+}
+
+
+#section{
+    width: 100%;
+    height: 500px;
+    background-color: azure;
+}
+.section_inner{
+    width: 1200px;
+    height: 500px;
+    background-color: bisque;
+    margin: 0 auto;
+}
+
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: beige;
+}
+.footer_inner{
+    width: 1200px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 0 auto;
+}
